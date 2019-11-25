@@ -16,4 +16,4 @@ Examples:
 
 |username|password|firstname|lastname|email|description|
 |santhoshraj2525@gmail.com |sandyCrm|cucucu|ber|cucumb@yahoo.com|testing with cucumber 1|
-|santhoshraj2525@gmail.com |sandyCrm|dududu|ber|dudumb@yahoo.com|testing with cucumber 2|
+|thouficmessi199510@gmail.com |thoufic@CRM|dududu|ber|dudumb@yahoo.com|testing with cucumber 2|

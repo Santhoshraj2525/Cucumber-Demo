@@ -1,156 +1,113 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/Deal.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/TagsDemo.feature");
 formatter.feature({
   "line": 1,
-  "name": "New Deals in Free CRM",
+  "name": "Tags demo with BDD with CRM eg",
   "description": "",
-  "id": "new-deals-in-free-crm",
+  "id": "tags-demo-with-bdd-with-crm-eg",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Adding New deals to my account in free CRM",
+  "line": 8,
+  "name": "Login with invalid credentials",
   "description": "",
-  "id": "new-deals-in-free-crm;adding-new-deals-to-my-account-in-free-crm",
+  "id": "tags-demo-with-bdd-with-crm-eg;login-with-invalid-credentials",
   "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 5,
-  "name": "user is already on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "title of the page is Free CRM",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "user enters username and password",
-  "rows": [
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "santhoshraj2525@gmail.com",
-        "sandyCrm"
-      ],
-      "line": 8
+      "line": 7,
+      "name": "@RegressionTest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
   "line": 9,
-  "name": "user clicks the login button",
-  "keyword": "Then "
+  "name": "this is negative scenairo",
+  "keyword": "Given "
 });
-formatter.step({
-  "line": 10,
-  "name": "user is on home page",
-  "keyword": "Then "
+formatter.match({
+  "location": "TagsDemoWithBDD.this_is_negative_scenairo()"
 });
-formatter.step({
-  "line": 11,
-  "name": "user moves to Deals page",
-  "keyword": "Then "
+formatter.result({
+  "duration": 296407167,
+  "status": "passed"
 });
-formatter.step({
+formatter.scenario({
   "line": 12,
-  "name": "user click the new deals",
-  "keyword": "Then "
+  "name": "Navigation of Home Page",
+  "description": "",
+  "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-home-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
   "line": 13,
-  "name": "user enters the Title and Description and Propability",
-  "rows": [
+  "name": "user should be in home page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagsDemoWithBDD.user_should_be_in_home_page()"
+});
+formatter.result({
+  "duration": 348160,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Navigation of Contacts page",
+  "description": "",
+  "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-contacts-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
     {
-      "cells": [
-        "Automation",
-        "Testing with Automation",
-        "21"
-      ],
-      "line": 14
+      "line": 19,
+      "name": "@RegressionTest"
     }
-  ],
-  "keyword": "Then "
+  ]
 });
 formatter.step({
-  "line": 15,
-  "name": "user cliks the Save button",
-  "keyword": "Then "
+  "line": 21,
+  "name": "user should be able to navigate to Contacts page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagsDemoWithBDD.user_should_be_able_to_navigate_to_Contacts_page()"
+});
+formatter.result({
+  "duration": 136960,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "Addition of contacts",
+  "description": "",
+  "id": "tags-demo-with-bdd-with-crm-eg;addition-of-contacts",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 27,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 16,
-  "name": "user again navigate to Deals page",
-  "keyword": "Then "
+  "line": 29,
+  "name": "user able to add new contacts",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "DealStepsDefinitions.user_is_already_on_login_page()"
+  "location": "TagsDemoWithBDD.user_able_to_add_new_contacts()"
 });
 formatter.result({
-  "duration": 10846741695,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.title_of_the_page_is_Free_CRM()"
-});
-formatter.result({
-  "duration": 26414092,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_enters_username_and_password(DataTable)"
-});
-formatter.result({
-  "duration": 420631646,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_clicks_the_login_button()"
-});
-formatter.result({
-  "duration": 92481747,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 5186988,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_moves_to_Deals_page()"
-});
-formatter.result({
-  "duration": 5346896788,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_click_the_new_deals()"
-});
-formatter.result({
-  "duration": 333005369,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_enters_Title_and_Description_and_Propability(DataTable)"
-});
-formatter.result({
-  "duration": 10827206753,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_clicks_the_Save_buttons()"
-});
-formatter.result({
-  "duration": 156308973,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepsDefinitions.user_again_navigate_Deals_page()"
-});
-formatter.result({
-  "duration": 11008192003,
+  "duration": 97707,
   "status": "passed"
 });
 });
