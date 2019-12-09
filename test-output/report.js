@@ -1,113 +1,199 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/TagsDemo.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/taggedhookdemo.feature");
 formatter.feature({
   "line": 1,
-  "name": "Tags demo with BDD with CRM eg",
+  "name": "Demo for tagged hook",
   "description": "",
-  "id": "tags-demo-with-bdd-with-crm-eg",
+  "id": "demo-for-tagged-hook",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 302079,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 313173,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 8,
-  "name": "Login with invalid credentials",
+  "line": 4,
+  "name": "Test demo for first",
   "description": "",
-  "id": "tags-demo-with-bdd-with-crm-eg;login-with-invalid-credentials",
+  "id": "demo-for-tagged-hook;test-demo-for-first",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 7,
-      "name": "@RegressionTest"
+      "line": 3,
+      "name": "@First"
     }
   ]
 });
 formatter.step({
-  "line": 9,
-  "name": "this is negative scenairo",
+  "line": 5,
+  "name": "testing of first step one",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 6,
+  "name": "testing of first step two",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "testing of first step three",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "TagsDemoWithBDD.this_is_negative_scenairo()"
+  "location": "TaggedHookDmeo.testing_of_first_step_one()"
 });
 formatter.result({
-  "duration": 296407167,
+  "duration": 283187079,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHookDmeo.testing_of_first_step_two()"
+});
+formatter.result({
+  "duration": 101973,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHookDmeo.testing_of_first_step_three()"
+});
+formatter.result({
+  "duration": 101120,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 99840,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 84053,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 124160,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 631893,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
-  "name": "Navigation of Home Page",
+  "line": 10,
+  "name": "Test demo for second",
   "description": "",
-  "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-home-page",
+  "id": "demo-for-tagged-hook;test-demo-for-second",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 11,
-      "name": "@RegressionTest"
+      "line": 9,
+      "name": "@Second"
     }
   ]
+});
+formatter.step({
+  "line": 11,
+  "name": "testing of second step one",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "tsting of second step two",
+  "keyword": "When "
 });
 formatter.step({
   "line": 13,
-  "name": "user should be in home page",
-  "keyword": "Given "
+  "name": "testing of second step three",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "TagsDemoWithBDD.user_should_be_in_home_page()"
+  "location": "TaggedHookDmeo.testing_of_second_step_one()"
 });
 formatter.result({
-  "duration": 348160,
+  "duration": 135680,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHookDmeo.tsting_of_second_step_two()"
+});
+formatter.result({
+  "duration": 93440,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHookDmeo.testing_of_second_step_three()"
+});
+formatter.result({
+  "duration": 85760,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 80640,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 72960,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 313600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
-  "name": "Navigation of Contacts page",
+  "line": 16,
+  "name": "Test demo for third",
   "description": "",
-  "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-contacts-page",
+  "id": "demo-for-tagged-hook;test-demo-for-third",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 19,
-      "name": "@RegressionTest"
+      "line": 15,
+      "name": "@Third"
     }
   ]
 });
 formatter.step({
-  "line": 21,
-  "name": "user should be able to navigate to Contacts page",
+  "line": 17,
+  "name": "testing of thrid step one",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 18,
+  "name": "testing of third step two",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 19,
+  "name": "testing of third step three",
+  "keyword": "Then "
+});
 formatter.match({
-  "location": "TagsDemoWithBDD.user_should_be_able_to_navigate_to_Contacts_page()"
+  "location": "TaggedHookDmeo.testing_of_thrid_step_one()"
 });
 formatter.result({
-  "duration": 136960,
+  "duration": 142080,
   "status": "passed"
 });
-formatter.scenario({
-  "line": 28,
-  "name": "Addition of contacts",
-  "description": "",
-  "id": "tags-demo-with-bdd-with-crm-eg;addition-of-contacts",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 27,
-      "name": "@RegressionTest"
-    }
-  ]
-});
-formatter.step({
-  "line": 29,
-  "name": "user able to add new contacts",
-  "keyword": "Given "
-});
 formatter.match({
-  "location": "TagsDemoWithBDD.user_able_to_add_new_contacts()"
+  "location": "TaggedHookDmeo.testing_of_third_step_two()"
 });
 formatter.result({
-  "duration": 97707,
+  "duration": 89600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TaggedHookDmeo.testing_of_third_step_three()"
+});
+formatter.result({
+  "duration": 125013,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 71680,
   "status": "passed"
 });
 });

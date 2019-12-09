@@ -3,122 +3,268 @@
     "line": 1,
     "elements": [
       {
-        "line": 8,
-        "name": "Login with invalid credentials",
+        "before": [
+          {
+            "result": {
+              "duration": 302079,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.FirstSetup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 313173,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test demo for first",
         "description": "",
-        "id": "tags-demo-with-bdd-with-crm-eg;login-with-invalid-credentials",
+        "id": "demo-for-tagged-hook;test-demo-for-first",
+        "after": [
+          {
+            "result": {
+              "duration": 99840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 84053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.tearFirst()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 296407167,
+              "duration": 283187079,
               "status": "passed"
             },
-            "line": 9,
-            "name": "this is negative scenairo",
+            "line": 5,
+            "name": "testing of first step one",
             "match": {
-              "location": "TagsDemoWithBDD.this_is_negative_scenairo()"
+              "location": "TaggedHookDmeo.testing_of_first_step_one()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101973,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "testing of first step two",
+            "match": {
+              "location": "TaggedHookDmeo.testing_of_first_step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101120,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "testing of first step three",
+            "match": {
+              "location": "TaggedHookDmeo.testing_of_first_step_three()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 7,
-            "name": "@RegressionTest"
+            "line": 3,
+            "name": "@First"
           }
         ]
       },
       {
-        "line": 12,
-        "name": "Navigation of Home Page",
+        "before": [
+          {
+            "result": {
+              "duration": 124160,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.SecondSetup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 631893,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Test demo for second",
         "description": "",
-        "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-home-page",
+        "id": "demo-for-tagged-hook;test-demo-for-second",
+        "after": [
+          {
+            "result": {
+              "duration": 80640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.tearSecond()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 348160,
+              "duration": 135680,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "testing of second step one",
+            "match": {
+              "location": "TaggedHookDmeo.testing_of_second_step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93440,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "tsting of second step two",
+            "match": {
+              "location": "TaggedHookDmeo.tsting_of_second_step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85760,
               "status": "passed"
             },
             "line": 13,
-            "name": "user should be in home page",
+            "name": "testing of second step three",
             "match": {
-              "location": "TagsDemoWithBDD.user_should_be_in_home_page()"
+              "location": "TaggedHookDmeo.testing_of_second_step_three()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 11,
-            "name": "@RegressionTest"
+            "line": 9,
+            "name": "@Second"
           }
         ]
       },
       {
-        "line": 20,
-        "name": "Navigation of Contacts page",
+        "before": [
+          {
+            "result": {
+              "duration": 313600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Test demo for third",
         "description": "",
-        "id": "tags-demo-with-bdd-with-crm-eg;navigation-of-contacts-page",
+        "id": "demo-for-tagged-hook;test-demo-for-third",
+        "after": [
+          {
+            "result": {
+              "duration": 71680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHookDmeo.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 136960,
+              "duration": 142080,
               "status": "passed"
             },
-            "line": 21,
-            "name": "user should be able to navigate to Contacts page",
+            "line": 17,
+            "name": "testing of thrid step one",
             "match": {
-              "location": "TagsDemoWithBDD.user_should_be_able_to_navigate_to_Contacts_page()"
+              "location": "TaggedHookDmeo.testing_of_thrid_step_one()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
+          },
           {
+            "result": {
+              "duration": 89600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "testing of third step two",
+            "match": {
+              "location": "TaggedHookDmeo.testing_of_third_step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125013,
+              "status": "passed"
+            },
             "line": 19,
-            "name": "@RegressionTest"
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "Addition of contacts",
-        "description": "",
-        "id": "tags-demo-with-bdd-with-crm-eg;addition-of-contacts",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 97707,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "user able to add new contacts",
+            "name": "testing of third step three",
             "match": {
-              "location": "TagsDemoWithBDD.user_able_to_add_new_contacts()"
+              "location": "TaggedHookDmeo.testing_of_third_step_three()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 27,
-            "name": "@RegressionTest"
+            "line": 15,
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Tags demo with BDD with CRM eg",
+    "name": "Demo for tagged hook",
     "description": "",
-    "id": "tags-demo-with-bdd-with-crm-eg",
+    "id": "demo-for-tagged-hook",
     "keyword": "Feature",
-    "uri": "C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/TagsDemo.feature"
+    "uri": "C:/Users/hp/eclipse-workspace/FreeCRMwithBDD/src/main/java/Features/taggedhookdemo.feature"
   }
 ]
